@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#37386e"
+    android:orientation="vertical"
+    tools:context=".News.NewsMainActivity">
+
+  <HorizontalScrollView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <Button
+          android:id="@+id/btn_1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="6dp"
+          android:background="#5F608B"
+          android:padding="6dp"
+          android:text="business"
+          android:textColor="@color/white"
+          android:textSize="12sp">
+
+      </Button>
+
+      <Button
+          android:id="@+id/btn_2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="6dp"
+          android:background="#5F608B"
+          android:padding="6dp"
+          android:text="entertainment"
+          android:textColor="@color/white"
+          android:textSize="12sp">
+
+      </Button>
+
+      <Button
+          android:id="@+id/btn_3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="6dp"
+          android:background="#5F608B"
+          android:padding="6dp"
+          android:text="general"
+          android:textColor="@color/white"
+          android:textSize="12sp">
+
+      </Button>
+
+      <Button
+          android:id="@+id/btn_4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="6dp"
+          android:background="#5F608B"
+          android:padding="6dp"
+          android:text="health"
+          android:textColor="@color/white"
+          android:textSize="12sp">
+
+      </Button>
+
+      <Button
+          android:id="@+id/btn_5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="6dp"
+          android:background="#5F608B"
+          android:padding="6dp"
+          android:text="science"
+          android:textColor="@color/white"
+          android:textSize="12sp">
+
+      </Button>
+
+      <Button
+          android:id="@+id/btn_6"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="6dp"
+          android:background="#5F608B"
+          android:padding="6dp"
+          android:text="sports"
+          android:textColor="@color/white"
+          android:textSize="12sp">
+
+      </Button>
+
+      <Button
+          android:id="@+id/btn_7"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="6dp"
+          android:background="#5F608B"
+          android:padding="6dp"
+          android:text="technology"
+          android:textColor="@color/white"
+          android:textSize="12sp">
+
+      </Button>
+    </LinearLayout>
+
+  </HorizontalScrollView>
+
+  <androidx.cardview.widget.CardView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="14dp"
+      app:cardElevation="8dp">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:defaultQueryHint="Search News..."
+        app:iconifiedByDefault="false">
+
+    </androidx.appcompat.widget.SearchView>
+
+  </androidx.cardview.widget.CardView>
+
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/news_recyclerview"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_margin="8dp">
+
+  </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Events App</string>
+    <string name="api_key">4909953df63440ac89d32c1c894f3fb2</string>
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
+    <string name="channel_name">Sign Out Notifications</string>
+
+    <string name="describe_discord_logo">Discord Application\'s Logo</string>
+
+    <string name="textview1">For Application Settings</string>
+
+    <string name="button_text_1">UPDATE NOTIFICATIONS</string>
+    <string name="button_text_2">ADD</string>
+    <string name="button_text_3">DELETE</string>
+    <string name="button_text_4">LIST</string>
+    <string name="button_text_5">SUBMIT</string>
+    <string name="app_button_text_1">ADD APP</string>
+    <string name="app_button_text_2">DELETE APP</string>
+    <string name="app_button_text_3">LIST APP</string>
+
+    <string name="content_description">Logo of an application</string>
+
+    <string name="settings_menu_item_text">SETTINGS</string>
+
+    <string name="app_count_input_hint">Enter app count (Default = 3)</string>
+    <string name="conversation_input_hint">Enter WhatsApp chat name</string>
+    <string name="user_warning">Please Enable Notification Access</string>
+
+    <string name="listview_item_title">App Name</string>
+    <string name="listview_item_text">Add app to or delete app from notification list</string>
+
+    <string name="discord_checkbox_text">Discord</string>
+    <string name="discord_notification_title">%1$s</string>
+    <string name="discord_notification_text">%1$s</string>
+
+    <string name="facebook_checkbox_text">Facebook</string>
+    <string name="facebook_notification_title">%1$s</string>
+    <string name="facebook_notification_text">%1$s</string>
+
+    <string name="gmail_checkbox_text">Gmail</string>
+    <string name="gmail_notification_title">from: %1$s</string>
+    <string name="gmail_notification_text">to: %1$s</string>
+
+    <string name="google_checkbox_text">Google</string>
+    <string name="google_notification_title">%1$s</string>
+    <string name="google_notification_text">%1$s</string>
+
+    <string name="instagram_checkbox_text">Instagram</string>
+    <string name="instagram_notification_title">%1$s</string>
+    <string name="instagram_notification_text">%1$s</string>
+
+    <string name="linkedin_checkbox_text">LinkedIn</string>
+    <string name="linkedin_notification_title">%1$s</string>
+    <string name="linkedin_notification_text">%1$s</string>
+
+    <string name="outlook_checkbox_text">Outlook</string>
+    <string name="outlook_notification_title">from: %1$s</string>
+    <string name="outlook_notification_text">to: %1$s</string>
+
+    <string name="tiktok_checkbox_text">TikTok</string>
+    <string name="tiktok_notification_title">%1$s</string>
+    <string name="tiktok_notification_text">%1$s</string>
+
+    <string name="twitter_checkbox_text">Twitter</string>
+    <string name="twitter_notification_title">%1$s</string>
+    <string name="twitter_notification_text">%1$s</string>
+
+    <string name="whatsapp_checkbox_text">WhatsApp</string>
+    <string name="whatsapp_notification_title">%1$s</string>
+    <string name="whatsapp_notification_text">%1$s</string>
+
+    <string name="active_notification_count_zero">No active notification</string>
+    <plurals name="active_notification_count_nonzero">
+        <item quantity="one">%1$d active notification</item>
+        <item quantity="other">%1$d active notifications</item>
+    </plurals>
+</resources>

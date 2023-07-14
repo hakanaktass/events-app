@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1059609099241",
+    "project_id": "olaylar-project",
+    "storage_bucket": "olaylar-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1059609099241:android:5af1214d67b494394d2978",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1059609099241-3v7u52784ar5nk819abfj1lbvdpbe44l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVY_2DPSjTx7Gm2YdBy5lB_5_XCrxN-u8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1059609099241-3v7u52784ar5nk819abfj1lbvdpbe44l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

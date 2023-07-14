@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotificationListener.DeleteApplicationActivity"
+    android:orientation="vertical">
+
+    <CheckBox
+        android:id="@+id/addDiscordCheckbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/discord_checkbox_text"
+        android:textSize="36sp"
+        android:drawableStart="@drawable/discord_logo_80_38"
+        android:onClick="setOnClickListener"
+        app:buttonTint="@color/customBackground"
+        tools:ignore="VisualLintButtonSize" />
+    <CheckBox
+        android:id="@+id/addFacebookCheckbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/facebook_checkbox_text"
+        android:textSize="36sp"
+        android:drawableStart="@drawable/facebook_logo_80_38"
+        android:onClick="setOnClickListener"
+        app:buttonTint="@color/customBackground"
+        tools:ignore="VisualLintButtonSize" />
+    <CheckBox
+        android:id="@+id/addGmailCheckbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/gmail_checkbox_text"
+        android:textSize="36sp"
+        android:drawableStart="@drawable/gmail_icon_80_38"
+        android:onClick="setOnClickListener"
+        app:buttonTint="@color/customBackground"
+        tools:ignore="VisualLintButtonSize" />
+    <CheckBox
+        android:id="@+id/addGoogleCheckbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/google_checkbox_text"
+        android:textSize="36sp"
+        android:drawableStart="@drawable/google_logo_80_38"
+        android:onClick="setOnClickListener"
+        app:buttonTint="@color/customBackground"
+        tools:ignore="VisualLintButtonSize" />
+    <CheckBox
+        android:id="@+id/addInstagramCheckbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/instagram_checkbox_text"
+        android:textSize="36sp"
+        android:drawableStart="@drawable/instagram_logo_80_38"
+        android:onClick="setOnClickListener"
+        app:buttonTint="@color/customBackground"
+        tools:ignore="VisualLintButtonSize" />
+    <CheckBox
+        android:id="@+id/addLinkedInCheckbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/linkedin_checkbox_text"
+        android:textSize="36sp"
+        android:drawableStart="@drawable/linkedin_logo_80_38"
+        android:onClick="setOnClickListener"
+        app:buttonTint="@color/customBackground"
+        tools:ignore="VisualLintButtonSize" />
+    <CheckBox
+        android:id="@+id/addOutlookCheckbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/outlook_checkbox_text"
+        android:textSize="36sp"
+        android:drawableStart="@drawable/outlook_logo_80_38"
+        android:onClick="setOnClickListener"
+        app:buttonTint="@color/customBackground"
+        tools:ignore="VisualLintButtonSize" />
+    <CheckBox
+        android:id="@+id/addTikTokCheckbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/tiktok_checkbox_text"
+        android:textSize="36sp"
+        android:drawableStart="@drawable/tiktok_logo_80_38"
+        android:onClick="setOnClickListener"
+        app:buttonTint="@color/customBackground"
+        tools:ignore="VisualLintButtonSize" />
+    <CheckBox
+        android:id="@+id/addTwitterCheckbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/twitter_checkbox_text"
+        android:textSize="36sp"
+        android:drawableStart="@drawable/twitter_logo_80_38"
+        android:onClick="setOnClickListener"
+        app:buttonTint="@color/customBackground"
+        tools:ignore="VisualLintButtonSize" />
+    <CheckBox
+        android:id="@+id/addWhatsAppCheckbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/whatsapp_checkbox_text"
+        android:textSize="36sp"
+        android:drawableStart="@drawable/whatsapp_logo_80_38"
+        android:onClick="setOnClickListener"
+        app:buttonTint="@color/customBackground"
+        tools:ignore="VisualLintButtonSize" />
+
+</LinearLayout>
